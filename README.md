@@ -1,6 +1,6 @@
 # SwitchToCover
 
-[Version Française]([https://github.com/TON_COMPTE/TON_REPO](https://github.com/TiagAuCarre/switchtocover-ha/tree/main#fran%C3%A7ais))
+[Version Française](#français)
 
 Home Assistant custom integration that turns an existing `switch` and a contact `binary_sensor` into a native `cover`.
 
