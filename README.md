@@ -1,11 +1,5 @@
 # SwitchToCover
 
-[Version Française](#français)
-
-[English Version](#english)
-
-#english
-
 Home Assistant custom integration that turns an existing `switch` and a contact `binary_sensor` into a native `cover`.
 
 The integration is designed for shutters, garage doors, gates, blinds, and other two-state openings controlled by a relay or switch.
@@ -20,6 +14,15 @@ The integration is designed for shutters, garage doors, gates, blinds, and other
 - Uses the contact sensor for the open/closed state.
 - Uses `switch.turn_on` to open and `switch.turn_off` to close.
 - Creates a separate Home Assistant device for every cover.
+
+## Voice assistants
+
+Because each opening is exposed as a native Home Assistant `cover`, it can be shared with compatible voice assistants such as Amazon Alexa and Google Home. After linking Home Assistant with the assistant of your choice, you can open and close a garage door or gate by voice, for example:
+
+- "Alexa, open the garage."
+- "Hey Google, close the gate."
+
+The assistant integration must be configured separately in Home Assistant. The exact availability and commands depend on the assistant, your Home Assistant setup, and the entities you choose to expose.
 
 ## Installation
 
@@ -85,6 +88,15 @@ Elle convient aux portes de garage, portails, volets, stores et autres ouvrants 
 - Le capteur de contact indique si l'ouvrant est ouvert ou fermé.
 - `switch.turn_on` ouvre et `switch.turn_off` ferme.
 - Chaque ouvrant est créé comme un appareil Home Assistant séparé.
+
+### Assistants vocaux
+
+Comme chaque ouvrant est exposé comme un vrai `cover` Home Assistant, il peut être partagé avec des assistants vocaux compatibles comme Amazon Alexa et Google Home. Après avoir relié Home Assistant à l'assistant de ton choix, tu peux ouvrir ou fermer ton garage ou ton portail à la voix, par exemple :
+
+- « Alexa, ouvre le garage. »
+- « Hey Google, ferme le portail. »
+
+L'intégration avec Alexa ou Google Home doit être configurée séparément dans Home Assistant. Les commandes disponibles dépendent de l'assistant utilisé, de ta configuration Home Assistant et des entités que tu choisis d'exposer.
 
 ### Installation
 
