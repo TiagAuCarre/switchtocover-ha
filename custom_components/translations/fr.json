@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer SwitchToCover",
+        "description": "Ajoute un garage, un portail ou tout autre ouvrant. Répète cette étape pour en ajouter d'autres.",
+        "data": {
+          "name": "Nom de l'ouvrant",
+          "cover_type": "Type d'ouvrant",
+          "switch_entity": "Entité interrupteur",
+          "contact_entity": "Capteur binaire de contact"
+        }
+      }
+    },
+    "error": {
+      "invalid_switch": "Sélectionne une entité interrupteur valide.",
+      "invalid_contact": "Sélectionne une entité capteur binaire valide."
+    },
+    "abort": {
+      "already_configured": "Cette combinaison interrupteur et capteur est déjà configurée."
+    }
+  }
+}

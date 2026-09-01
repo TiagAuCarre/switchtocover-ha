@@ -1,0 +1,24 @@
+{
+  "title": "SwitchToCover",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure SwitchToCover",
+        "description": "Add one garage, gate, or other opening. Repeat this setup to add more covers.",
+        "data": {
+          "name": "Cover name",
+          "cover_type": "Cover type",
+          "switch_entity": "Switch entity",
+          "contact_entity": "Contact binary sensor"
+        }
+      }
+    },
+    "error": {
+      "invalid_switch": "Select a valid switch entity.",
+      "invalid_contact": "Select a valid binary sensor entity."
+    },
+    "abort": {
+      "already_configured": "This switch and contact sensor pair is already configured."
+    }
+  }
+}
