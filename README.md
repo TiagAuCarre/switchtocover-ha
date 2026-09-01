@@ -1,5 +1,8 @@
 # SwitchToCover
 
+[Version Française](#français)
+[English Version](#english)
+
 Home Assistant custom integration that turns an existing `switch` and a contact `binary_sensor` into a native `cover`.
 
 The integration is designed for shutters, garage doors, gates, blinds, and other two-state openings controlled by a relay or switch.
